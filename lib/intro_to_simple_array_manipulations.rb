@@ -11,7 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array, num_items)
-  array.slice(-num_items, num_items) 
+  array.pop(num_items)
 end
  
  
@@ -20,5 +20,5 @@ end
  end
  
  def shift_with_args(array, num_items)
-   array.slice(num_items, num_items)
+   array.shift(num_items)
  end
