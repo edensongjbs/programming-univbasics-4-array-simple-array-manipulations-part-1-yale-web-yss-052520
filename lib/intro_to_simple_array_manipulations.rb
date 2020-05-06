@@ -10,12 +10,15 @@ def using_pop(array)
   array.pop
 end
 
-#def pop_with_args(array, times)
- # times.times do 
+def pop_with_args(array, num_items)
+  array.slice(-num_items, num_items) 
+end
+ 
  
  def using_shift(array)
    array.shift
  end
  
- def shift_with_args
+ def shift_with_args(array, num_items)
+   array.slice(num_items, num_items)
  end
