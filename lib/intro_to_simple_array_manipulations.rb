@@ -1,3 +1,5 @@
+require 'pry'
+
 def using_push(array, string)
   array.push(string)
 end
@@ -20,5 +22,7 @@ end
  end
  
  def shift_with_args(array)
+   binding.pry
    array.shift(2)
  end
+ 
